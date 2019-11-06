@@ -1,0 +1,27 @@
+<!<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../static/stylesheet.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js" type="text/javascript"></script>
+    <script type="text/javascript" src="{{ url_for('static', filename='app.js') }}"></script>
+    <title>GOT</title>
+</head>
+    <body style="justify-content: center">
+        <div class="container">
+            <div class="row d-flex justify-content-center">
+            <div class="card" style="border-radius: 20px ; background-color: lightgrey ; box-shadow: 10px 5px 5px grey">
+                <div class="card-body">
+                        <h1 style="text-decoration: underline;text-align: center">Game Of thrones</h1>
+                        <img src="/static/Wc.jpg">
+                        <h2 id="status" style="text-align: center"></h2>
+                </div>
+                <div class="row justify-content-center mb-5">
+                        <a  class="btn btn-primary " href="/">Vérifier</a>
+                </div>
+            </div>
+            </div>
+        </div>
+    </body>
+</html>
